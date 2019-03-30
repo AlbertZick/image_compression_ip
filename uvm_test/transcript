@@ -1,0 +1,183 @@
+# vsim -novopt -c top "+num_sequence=2" -do "run -all; exit;" 
+# Start time: 23:33:13 on Sep 04,2018
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# //  Questa Sim-64
+# //  Version 10.4c linux_x86_64 Jul 19 2015
+# //
+# //  Copyright 1991-2015 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //  THIS DOCUMENT CONTAINS TRADE SECRETS AND COMMERCIAL OR FINANCIAL
+# //  INFORMATION THAT ARE PRIVILEGED, CONFIDENTIAL, AND EXEMPT FROM
+# //  DISCLOSURE UNDER THE FREEDOM OF INFORMATION ACT, 5 U.S.C. SECTION 552.
+# //  FURTHERMORE, THIS INFORMATION IS PROHIBITED FROM DISCLOSURE UNDER
+# //  THE TRADE SECRETS ACT, 18 U.S.C. SECTION 1905.
+# //
+# Loading sv_std.std
+# Loading mtiUvm.uvm_pkg
+# Loading work.pkg_uvm_test
+# Loading work.top
+# Loading work.if_dut
+# Loading work.m_dut
+# Loading work.m_small_ip
+# Loading work.convert_int_into_float
+# Loading work.abs_25_bits
+# Loading work.mux_2_1
+# Loading work.cong_25bits
+# Loading work.full_adder
+# Loading work.shift_left_1_25bits
+# Loading work.adder_unsign_8_bits
+# Loading work.sub_nadd_9_sign_bits
+# Loading work.convert_color_space_Y
+# Loading work.FP
+# Loading work.small_ALU
+# Loading work.exponent_difference
+# Loading work.shift_right
+# Loading work.big_ALU
+# Loading work.demux_1_4
+# Loading work.demux_1_2
+# Loading work.sub_nadd_25_sign_bits
+# Loading work.multiplier_24x24_bits
+# Loading work.multiplier_12x12_bits
+# Loading work.multiplier_6x6_bits
+# Loading work.add_24_bits
+# Loading work.add_48_bits
+# Loading work.divider_24x24_bits
+# Loading work.mux_4_1
+# Loading work.abs
+# Loading work.sub_nadd_49_sign_bits
+# Loading work.inc_or_dec
+# Loading work.shift_left_or_right
+# Loading work.shift_left_24_bits
+# Loading work.shift_left_12_bits
+# Loading work.shift_left_6_bits
+# Loading work.shift_left_1_bit
+# Loading work.adder_unsign_6_bits
+# Loading work.sub_unsign_6_bits
+# Loading work.FP_control
+# Loading work.rounding
+# Loading work.convert_color_space_Cb
+# Loading work.convert_color_space_Cr
+# Loading work.control_convertion
+# Loading work.mem_YCbCr
+# Loading work.convert_float_into_int
+# Loading work.adjust_significand
+# Loading work.decide_on_rounding
+# Loading work.control_DCT
+# Loading work.dct_2_D
+# Loading work.dct
+# Loading work.multiplier_2
+# Loading work.dich_trai_1
+# Loading work.multiplier_6
+# Loading work.multiplier_8
+# Loading work.multiplier_14
+# Loading work.tru_25bits
+# Loading work.multiplier_15
+# Loading work.multiplier_16
+# Loading work.multiplier_19
+# Loading work.multiplier_30
+# Loading work.multiplier_35
+# Loading work.multiplier_36
+# Loading work.multiplier_39
+# Loading work.dieu_chinh
+# Loading work.mem_8x8
+# Loading work.counter_8_state
+# Loading work.D_flipflop
+# Loading work.delay_1_clk
+# Loading work.control_quatization
+# Loading work.Y_quantization
+# Loading work.Chrominance_quantization
+# Loading work.m_control_encoder
+# Loading work.m_luminance_component_encoder
+# Loading work.m_bin_counter
+# Loading work.FF
+# Loading work.mem_64
+# Loading work.m_zigzac_table
+# Loading work.m_delay_28_clock
+# Loading work.m_ZZk_comparator
+# Loading work.m_K_comparator
+# Loading work.m_reg_R
+# Loading work.m_R_comparator
+# Loading work.m_encode_luminance_ac
+# Loading work.m_calc_ac_addl_bits
+# Loading work.m_calc_ac_category
+# Loading work.sub_nadd_11_sign_bits
+# Loading work.m_luminance_huff_code_ac
+# Loading work.m_luminance_ext_hm_code_ac
+# Loading work.adder_unsign_5_bits
+# Loading work.m_encode_luminance_dc
+# Loading work.m_dc_diff
+# Loading work.m_calc_dc_category
+# Loading work.sub_nadd_12_sign_bits
+# Loading work.m_luminance_huff_code_dc
+# Loading work.m_luminance_ext_hm_code_dc
+# Loading work.m_control_v2
+# Loading work.m_chrominance_component_encoder
+# Loading work.m_encode_chrominance_ac
+# Loading work.m_chrominance_huff_code_ac
+# Loading work.m_chrominance_ext_hm_code_ac
+# Loading work.m_encode_chrominance_dc
+# Loading work.m_chrominance_huff_code_dc
+# Loading work.m_chrominance_ext_hm_code_dc
+# Loading mtiUvm.questa_uvm_pkg
+# Loading /home/truongtran/MyPrograms/questasim/uvm-1.1d/linux_x86_64/uvm_dpi.so
+# run -all
+# ----------------------------------------------------------------
+# UVM-1.1d
+# (C) 2007-2013 Mentor Graphics Corporation
+# (C) 2007-2013 Cadence Design Systems, Inc.
+# (C) 2006-2013 Synopsys, Inc.
+# (C) 2011-2013 Cypress Semiconductor Corp.
+# ----------------------------------------------------------------
+# 
+#   ***********       IMPORTANT RELEASE NOTES         ************
+# 
+#   You are using a version of the UVM library that has been compiled
+#   with `UVM_NO_DEPRECATED undefined.
+#   See http://www.eda.org/svdb/view.php?id=3313 for more details.
+# 
+#   You are using a version of the UVM library that has been compiled
+#   with `UVM_OBJECT_MUST_HAVE_CONSTRUCTOR undefined.
+#   See http://www.eda.org/svdb/view.php?id=3770 for more details.
+# 
+#       (Specify +UVM_NO_RELNOTES to turn off this notice)
+# 
+# UVM_INFO verilog_src/questa_uvm_pkg-1.2/src/questa_uvm_pkg.sv(215) @ 0: reporter [Questa UVM] QUESTA_UVM-1.2.2
+# UVM_INFO verilog_src/questa_uvm_pkg-1.2/src/questa_uvm_pkg.sv(217) @ 0: reporter [Questa UVM]  questa_uvm::init(+struct)
+# UVM_INFO @ 0: reporter [RNTST] Running test c_random_test...
+# UVM_INFO c_scoreboard.svh(251) @ 8000: uvm_test_top.env.scoreboard [Report] transform y rightly
+# UVM_INFO c_scoreboard.svh(256) @ 8000: uvm_test_top.env.scoreboard [Report] transform cb rightly
+# UVM_INFO c_scoreboard.svh(261) @ 8000: uvm_test_top.env.scoreboard [Report] transform cr rightly
+# UVM_INFO c_scoreboard.svh(251) @ 15680: uvm_test_top.env.scoreboard [Report] transform y rightly
+# UVM_INFO c_scoreboard.svh(256) @ 15680: uvm_test_top.env.scoreboard [Report] transform cb rightly
+# UVM_INFO c_scoreboard.svh(261) @ 15680: uvm_test_top.env.scoreboard [Report] transform cr rightly
+# UVM_INFO c_scoreboard.svh(304) @ 17960: uvm_test_top.env.scoreboard [Report] fdct for y rightly
+# UVM_INFO c_scoreboard.svh(310) @ 17960: uvm_test_top.env.scoreboard [Report] fdct for cb rightly
+# UVM_INFO c_scoreboard.svh(316) @ 17960: uvm_test_top.env.scoreboard [Report] fdct for cr rightly
+# UVM_INFO c_scoreboard.svh(278) @ 17960: uvm_test_top.env.scoreboard [Report] quantize y rightly
+# UVM_INFO c_scoreboard.svh(283) @ 17960: uvm_test_top.env.scoreboard [Report] quantize cb rightly
+# UVM_INFO c_scoreboard.svh(288) @ 17960: uvm_test_top.env.scoreboard [Report] quantize cr rightly
+# UVM_INFO c_scoreboard.svh(373) @ 17960: uvm_test_top.env.scoreboard [Report] Right :), y component encoding
+# UVM_INFO c_scoreboard.svh(353) @ 17960: uvm_test_top.env.scoreboard [Report] Right :), cb component encoding
+# UVM_INFO c_scoreboard.svh(332) @ 17960: uvm_test_top.env.scoreboard [Report] Right :), cr component encoding
+# UVM_FATAL @ 20160: run [OBJTN_ZERO] Object "uvm_test_top.env.stimulus_agent.stimulus_monitor" attempted to drop objection 'run' count below zero
+# 
+# --- UVM Report Summary ---
+# 
+# ** Report counts by severity
+# UVM_INFO :   18
+# UVM_WARNING :    0
+# UVM_ERROR :    0
+# UVM_FATAL :    1
+# ** Report counts by id
+# [OBJTN_ZERO]     1
+# [Questa UVM]     2
+# [RNTST]     1
+# [Report]    15
+# ** Note: $finish    : /home/truongtran/MyPrograms/questasim/linux_x86_64/../verilog_src/uvm-1.1d/src/base/uvm_report_object.svh(292)
+#    Time: 20160 ns  Iteration: 1  Region: /pkg_uvm_test::c_stimulus_monitor::run_phase
+# End time: 23:33:16 on Sep 04,2018, Elapsed time: 0:00:03
+# Errors: 0, Warnings: 1

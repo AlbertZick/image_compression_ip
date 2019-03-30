@@ -1,0 +1,1 @@
+vlog *.sv *.v -l log.svh
